@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-#bar {
-  display: none;
-}
+
+/* Using Class */
+
 .detail {
   font-family: "Apercu";
   font-size: 40px;
@@ -42,23 +42,27 @@
   font-style: normal;
   font-size: 32px;
 }
-#navbar-items {
-  gap: 30px;
+.gap {
+  gap: 40px;
 }
-#navbar {
-  padding: 10px;
-  background-color: #000000;
-  border-bottom: 1px groove #161616;
-}
-#main-logo {
-  width: 165px;
-  height: auto;
+.text-grey {
+  color: gray;
 }
 .nav-links {
   font-weight: 500;
   margin-top: 15px;
   text-decoration: none;
   color: #ffffff;
+}
+
+.width {
+  width: 550px;
+}
+.card p {
+  padding-bottom: 10px;
+}
+.icons {
+  padding-right: 10px;
 }
 .cart {
   position: relative;
@@ -90,6 +94,14 @@
   font-size: 14px;
   font-weight: bold;
 }
+.rest {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 10px !important;
+  display: block;
+}
 .restaurant {
   font-style: normal;
   font-weight: 400;
@@ -108,9 +120,7 @@
   color: rgba(255, 255, 255, 0.7);
   margin-top: 1.5rem;
 }
-#village-restaurant {
-  margin-top: 4rem;
-}
+
 .village-restaurant h3 {
   font-family: "futurak";
   font-style: normal;
@@ -173,6 +183,33 @@
     margin-top: 2rem;
     margin-bottom: 10px;
 }
+.sec-village {
+  font-style: normal;
+  font-family: "futurak";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+/* ------------------------------------------------------- */
+
+/* Using Id's */
+#bar {
+  display: none;
+}
+#navbar-items {
+  gap: 30px;
+}
+#navbar {
+  padding: 10px;
+  background-color: #000000;
+  border-bottom: 1px groove #161616;
+}
+#main-logo {
+  width: 165px;
+  height: auto;
+}
 #order-btn {
   margin-left: 15px;
   padding: 10px 10px;
@@ -194,15 +231,12 @@
 #nav {
   margin-right: 150px;
 }
-
 #img-size {
   width: 100%;
 }
+
 #gap {
   gap: 3%;
-}
-.text-grey {
-  color: gray;
 }
 #children-img {
   gap: 30px;
@@ -231,31 +265,26 @@
   color: #ffffff;
   margin-top: 40px;
 }
-.rest {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  color: #ffffff;
-  margin-bottom: 10px !important;
-  display: block;
-}
-.width {
-  width: 550px;
-}
-.card p {
-  padding-bottom: 10px;
-}
-.icons {
-  padding-right: 10px;
-}
+
 #card {
   letter-spacing: 5px;
   word-spacing: 5px;
   line-height: 30px;
 }
-.gap {
-  gap: 40px;
+#village-restaurant {
+  margin-top: 4rem;
 }
+#expara{
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #ffffffb3;
+  
+}
+
 #images {
   width: 15%;
 }
