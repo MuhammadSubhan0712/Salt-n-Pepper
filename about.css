@@ -48,6 +48,7 @@
 .text-grey {
   color: gray;
 }
+
 .nav-links {
   font-weight: 500;
   margin-top: 15px;
@@ -209,6 +210,9 @@
 #main-logo {
   width: 165px;
   height: auto;
+}
+#bg-grey{
+  background-color:#ffffff0f;
 }
 #order-btn {
   margin-left: 15px;
