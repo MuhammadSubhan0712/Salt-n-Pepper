@@ -278,6 +278,14 @@
 #village-restaurant {
   margin-top: 4rem;
 }
+#exhead{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #FFFFFF;
+  display: inline-block;
+}
 #expara{
   font-family: 'Apercu';
   font-style: normal;
