@@ -203,6 +203,33 @@
   /* width: 100%; */
 /* scale: 10; */
 }
+   .branch-details {
+        font-size: 1.1rem;
+    }
+    
+    .detail-item {
+        
+        padding-bottom: 8px;
+    }
+    
+    .btn-outline-danger {
+        color: white;
+        border-color: #ed1c24;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-outline-danger:hover {
+        background-color: #ed1c24;
+        color: white;
+    }
+    
+    .rounded-0 {
+        border-radius: 0 !important;
+    }
+    
+    .border-2 {
+        border-width: 2px !important;
+    }
 /* ------------------------------------------------------- */
 
 /* Using Id's */
