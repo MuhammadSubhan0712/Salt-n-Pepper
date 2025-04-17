@@ -193,16 +193,7 @@
   color: #ffffff;
   margin-bottom: 50px;
 }
-.book-image{
-  transition-duration: 0.5s;
-  width: 100%;
-  vertical-align: middle;
-}
-.book-image:hover{
-  transition-duration: 0.5s ease-in-out;
-  /* width: 100%; */
-/* scale: 10; */
-}
+
    .branch-details {
         font-size: 1.1rem;
     }

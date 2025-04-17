@@ -1,35 +1,12 @@
+/* ===== RESET & BASE STYLES ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-#first-div {
-  background-color: #000000;
-}
-#bar {
-  display: none;
-}
-.detail {
-  font-family: "Apercu";
-  font-size: 40px;
-  color: #ffffff;
-}
-.details {
-  font-family: "Apercu";
-  font-size: 32px;
-  color: #ffffff;
-}
-.bottom-detail {
-  font-family: "Apercu";
-  font-size: 20px;
-  color: #ffffff;
-}
-.bg-grey {
-  background-color: #0f0f0f;
-}
-.back-dark {
-  background-color: #000000;
-}
+
+/* ===== TYPOGRAPHY CLASSES ===== */
+/* Font Styles */
 .style {
   font-family: "futurak";
   font-style: normal;
@@ -37,35 +14,297 @@
   font-weight: 400;
   line-height: 62px;
 }
+
 .styles {
   font-family: "futurak";
   font-style: normal;
   font-size: 32px;
 }
+
+.detail {
+  font-family: "Apercu";
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.bottom-detail {
+  font-family: "Apercu";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.rest {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 10px !important;
+  display: block;
+}
+
+/* Text Colors */
+.text-grey {
+  color: gray;
+}
+
+/* ===== LAYOUT CLASSES ===== */
+/* Backgrounds */
+.bg-grey {
+  background-color: #0f0f0f;
+}
+
+.back-dark {
+  background-color: #000000;
+}
+
+/* Spacing & Sizing */
+.width {
+  width: 550px;
+}
+
+.gap {
+  gap: 40px;
+}
+
+/* Card Styles */
+.card p {
+  padding-bottom: 10px;
+}
+
+/* ===== COMPONENT CLASSES ===== */
+/* Navigation */
+.nav-links {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Shopping Cart */
+.cart {
+  position: relative;
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ed1c24;
+  color: white;
+  border-radius: 60%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Restaurant Sections */
+.restaurant {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 12rem;
+}
+
+.restaurant p {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1.5rem;
+}
+
+.village-restaurant h3 {
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.village-restaurant h3 span {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.village-restaurant p {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #ffffffb3;
+  margin-top: 1.5rem;
+}
+
+/* Franchise Sections */
+.sec-franchise {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-style: normal;
+  font-family: "futurak";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.span {
+  font-family: sans-serif;
+  margin-top: 0.3rem;
+}
+
+.express {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 5rem;
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.expressp {
+  text-align: center;
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #ffffffb3;
+  margin-top: 2rem;
+  margin-bottom: 10px;
+}
+
+.sec-village {
+  font-style: normal;
+  font-family: "futurak";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/* Branch Details */
+.branch-details {
+  font-size: 1.1rem;
+}
+
+.detail-item {
+  padding-bottom: 8px;
+}
+
+/* Buttons */
+.btn-outline-danger {
+  color: white;
+  border-color: #ed1c24;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ed1c24;
+  color: white;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
+
+.branch-btn {
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #ED1C2400;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ED1C24;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* ===== ID STYLES ===== */
+/* Layout IDs */
+#background-black {
+  background-color: #000000;
+}
+
+#navbar {
+  padding: 10px;
+  background-color: #000000;
+  border-bottom: 1px groove #161616;
+}
+
 #navbar-items {
   gap: 30px;
 }
-#navbar {
-  padding: 10px 10px;
-  background-color: #000000;
+
+#logo {
+  margin-left: 150px;
 }
+
+#nav {
+  margin-right: 150px;
+}
+
+/* Component IDs */
+#bar {
+  display: none;
+  font-size: xx-large;
+  color: #ffffff;
+}
+
 #main-logo {
   width: 165px;
   height: auto;
 }
-.nav-links {
-  text-decoration: none;
-  color: #ffffff;
-}
-.nav-link {
-  text-decoration: none;
-}
+
 #order-btn {
+  margin-left: 15px;
   padding: 10px 10px;
   color: #ffffff;
-  background-color: #eb0a0a;
+  background-color: #e22626;
   border: none;
 }
+
 #order-icon {
   padding: 8px 8px;
   color: #eb0a0a;
@@ -73,6 +312,7 @@
   border-radius: 20px;
   margin-left: 10px;
 }
+
 #fran-btn {
   background-color: transparent;
   cursor: pointer;
@@ -82,24 +322,7 @@
   border: 1px solid gray;
   color: #ffffff;
 }
-#logo {
-  margin-left: 150px;
-}
-#nav {
-  margin-right: 150px;
-}
-#img-size {
-  width: 100%;
-}
-#gap {
-  gap: 3%;
-}
-.text-grey {
-  color: gray;
-}
-#children-img {
-  gap: 30px;
-}
+
 #red {
   font-family: "Apercu";
   font-style: normal;
@@ -110,6 +333,7 @@
   color: #ed1c24;
   margin-bottom: 8px;
 }
+
 #direction-btn {
   background-color: transparent;
   width: 174px;
@@ -124,35 +348,56 @@
   color: #ffffff;
   margin-top: 40px;
 }
-.width {
-  width: 550px;
+
+#village-restaurant {
+  margin-top: 4rem;
 }
-.card p {
-  padding-bottom: 10px;
+
+#exhead {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #FFFFFF;
+  display: inline-block;
 }
-.icons {
-  padding-right: 10px;
+
+#expara {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #ffffffb3;
 }
-#card {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  line-height: 30px;
+
+#bg-grey {
+  background-color: #ffffff0f;
 }
-.gap {
-  gap: 40px;
+
+/* Image IDs */
+#img-size {
+  width: 100%;
 }
+
 #images {
   width: 15%;
 }
+
 #footer-img {
   width: 120px;
 }
+
+/* Footer IDs */
 #footer-p {
   width: 350px;
 }
+
 #line-height {
   line-height: 30px;
 }
+
 #footer-icons {
   font-size: xx-large;
   margin-right: 22px;
@@ -161,43 +406,64 @@
   text-align: center;
 }
 
+#children-img {
+  gap: 30px;
+}
+
+#card {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+/* ===== MEDIA QUERIES ===== */
 @media (max-width: 1270px) {
   #logo,
   #nav {
     margin-left: 0;
     margin-right: 0;
   }
+  
   #navbar {
-    justify-content: space-between !important; /* Change to space between */
+    justify-content: space-between !important;
   }
 
   .nav-links,
   #fran-btn {
-    display: none; /* Hide navigation links and fran-btn */
+    display: none;
   }
 
   #bar {
-    display: block; /* Display the menu bar icon */
-    font-size: xx-large;
-    color: #ffffff;
+    display: block;
   }
 
   #main-logo {
     max-width: 80%;
   }
+  
   #order-btn {
     padding: 6px 6px;
-    color: #ffffff;
-    background-color: #eb0a0a;
-    border: none;
     font-size: x-small;
     font-weight: bold;
   }
+  
   #order-icon {
     padding: 6px 6px;
-    color: #eb0a0a;
-    background-color: #ffffff;
     border-radius: 15px;
     margin-left: 5px;
   }
+}
+
+/* Paragraph Styles */
+.intro-p {
+  font-size: 16px;
+  font-family: serif;
+  font-weight: 500;
+  margin-inline: 120px;
+  color: #b1b1b1;
+}
+
+/* Icon Styles */
+.icons {
+  padding-right: 10px;
 }
