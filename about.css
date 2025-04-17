@@ -230,6 +230,18 @@
     .border-2 {
         border-width: 2px !important;
     }
+    .branch-btn{
+      font-size: 17px;
+      font-weight: 500;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: #ED1C2400;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #ED1C24;
+      border-radius: 0px 0px 0px 0px;
+    }
 /* ------------------------------------------------------- */
 
 /* Using Id's */
