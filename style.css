@@ -261,6 +261,28 @@
   border-radius: 0px 0px 0px 0px;
 }
 
+/* Mobile Menu styles */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.mobile-menu.show {
+  display: block;
+}
+
+.mobile-menu .nav-links {
+display: block;
+padding: 10px 0;
+border-bottom: 1px solid #333;
+}
+
 /* ===== ID STYLES ===== */
 /* Layout IDs */
 #background-black {
