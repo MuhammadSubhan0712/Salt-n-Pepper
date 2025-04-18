@@ -261,6 +261,26 @@
   border-radius: 0px 0px 0px 0px;
 }
 
+/* Publications Image */
+.book-container {
+position: relative;
+overflow: hidden;
+transition: all 0.3s ease-in-out;
+}
+
+.book-image {
+transition: all 0.3s ease-in-out;
+display: block;
+}
+
+.book-container:hover {
+border-color: #ed1c24 !important;
+transform: translateY(-5px);
+}
+
+.book-container:hover .book-image {
+  transform: scale(1.05);
+}
 /* Mobile Menu styles */
 .mobile-menu {
   display: none;
